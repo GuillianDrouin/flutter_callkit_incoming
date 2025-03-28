@@ -17,6 +17,8 @@
             android:excludeFromRecents="true"
             android:noHistory="true"
             android:turnScreenOn="true"
+            android:showWhenLocked="true"
+            android:showOnLockScreen="true"
             android:configChanges="orientation"
             android:exported="false"
             android:launchMode="singleInstance"
@@ -29,6 +31,13 @@
         </activity>
         <activity
             android:exported="false"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:turnScreenOn="true"
+            android:showWhenLocked="true"
+            android:showOnLockScreen="true"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
             android:theme="@style/TranslucentTheme"
             android:name="com.hiennv.flutter_callkit_incoming.TransparentActivity"/>
 
